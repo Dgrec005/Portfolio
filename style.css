@@ -1,0 +1,125 @@
+
+
+body{
+	background-color:white;
+	color: black;
+	font-size:12px;
+	padding: 0;
+	margin: 0;
+}
+
+
+*{
+	padding: 0;
+	margin: 0;
+}
+h1{
+	background-color: red;
+	font-size: 90px;
+	font-family: Soda;
+	text-align: center;
+	text-shadow: 2px 2px white;
+}
+
+h2{
+	font-size: 250%; /* my "graphic design" and "drawings" headers are a different size even though they are under this.
+						Why is that, and also why is the G in Drawings have a white outline? */
+	font-weight: 700%;
+	font-family: Soda;
+	text-align: center;
+	margin: 100;
+
+} 
+
+	
+p{
+	font-size: 80%;
+}
+
+hr{
+	border-color: red;
+}
+
+nav ul li{
+	list-style: none; 
+	display: inline-block;
+	width: 100px;
+	height: 50px;
+	margin: 30px;
+	padding: 10px;
+	font-family: soda;
+	color: white; /* why am i unable to make my header and footer text white? */
+	
+}
+
+nav{
+background-color: red;
+}
+
+ul{
+	width: 50%;
+	text-align: center;
+	margin: 0px auto;
+	color: white;
+	
+}
+
+a{ 
+	color: black;
+	text-decoration: none;
+	font-size: 24px
+}
+header{
+	width: 98%;
+	padding:1%;
+	margin:0px;
+	background-color:white;
+}
+@font-face{ 
+	font-family: Soda;
+	src: url('Designer.otf');
+}
+
+
+
+table{
+	background-color:red;
+	color: black;
+	font-size:12px;
+	padding: 100;
+	margin: 30;
+	
+}
+td{
+	background-color:white;
+	color: red;
+	font-size:18px;
+	padding: 20;
+	margin: 20;
+	
+}
+
+
+footer { 
+	font-size: 18px;
+	font-family: Soda;
+	
+	
+}
+
+button {
+	background-color: red;
+	text-align: center;
+	font-size: 30px;
+	font-family:soda;
+	
+}
+#homepageContent{
+	display: flex;
+	justify-content: center;
+}
+
+threeColumns{				
+	width: 30%;
+	overflow: hidden;
+}
